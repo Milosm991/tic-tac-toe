@@ -1,0 +1,16 @@
+.form{
+    margin-top: 100px !important;
+    width: 30% !important;
+    margin: 0 auto;
+    .btnC{
+        margin-top: 20px !important;
+    }
+    p{
+        color: red;
+        font-weight: bolder;
+        margin-left: 15%;
+    }
+    ::placeholder{
+        color: white;
+    }
+}

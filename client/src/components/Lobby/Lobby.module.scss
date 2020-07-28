@@ -1,0 +1,45 @@
+.main{
+    position: relative;
+    text-align: center;
+    margin-top: 4em !important;
+
+    .btns{
+        margin-top: 10px;
+    }
+    .join{
+        margin-left: 10px;
+    }
+
+    .rooms{
+        overflow-y: scroll;
+        border: solid 1px black;
+        width: 100%;
+        height: 350px;
+        margin-top: 20px;
+    }
+   
+}
+
+.modal{
+    width: 30%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: none !important;
+    border-radius: 20px;
+    background-color: #a8dcd1;
+    ::placeholder{
+        color: white;
+        text-align: center;
+    }
+    .modal_info{
+        text-align: center;
+        input{
+            width: 80%;
+            padding: 8px;
+        }
+        .cancle{
+            margin-left: 10px;
+        }
+    }
+}
